@@ -81,10 +81,13 @@ VNPAY_URL=https://sandbox.vnpayment.vn/paymentv2/vpcpay.html
 VNPAY_RETURN_URL=http://localhost:8080/api/payments/vnpay-callback
 ```
 2. Build Docker Image
+```
 docker build -t myusername/flash-sale:latest .
-
+```
 3. Chạy hệ thống với Docker Compose
+```
 docker-compose up -d --build
-Docker Hub: docker pull helloworld22123/flash-sale:0.9.0
-Khi xong vào http://localhost:8080/swagger-ui/index.html để test các api
-   ốn kiểm tra sự tranh chấp sử dụng jmeter hoặc chạy file Test trong project
+```
+Docker Hub: ```docker pull helloworld22123/flash-sale:0.9.0```
+Khi xong vào``` http://localhost:8080/swagger-ui/index.html``` để test các api
+Muốn kiểm tra sự tranh chấp sử dụng jmeter hoặc chạy file Test trong project
