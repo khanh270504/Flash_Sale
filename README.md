@@ -88,6 +88,6 @@ docker build -t myusername/flash-sale:latest .
 ```
 docker-compose up -d --build
 ```
-Docker Hub: ```docker pull helloworld22123/flash-sale:0.9.0```
-Khi xong vào``` http://localhost:8080/swagger-ui/index.html``` để test các api
-Muốn kiểm tra sự tranh chấp sử dụng jmeter hoặc chạy file Test trong project
+4.Docker Hub: ```docker pull helloworld22123/flash-sale:0.9.0```
+5.Khi xong vào``` http://localhost:8080/swagger-ui/index.html``` để test các api
+6.Muốn kiểm tra sự tranh chấp sử dụng jmeter hoặc chạy file Test trong project
